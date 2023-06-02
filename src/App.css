@@ -1,0 +1,42 @@
+.sticky-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #0d6efd;
+  color: white;
+}
+
+.bookingForm {
+  align-self: center;
+  text-align: center;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.movie-image {
+  border-radius: 0.5rem;
+}
+
+.button{
+  position: relative;
+  padding: 0.5rem 1.25rem;
+  right: 12rem;
+}
+
+.booking-form{
+  position: absolute;
+  top: 12rem;
+}
+
+.m-image {
+  height: 18rem;
+}
+
+.movie-summary {
+  margin-top: 1rem;
+  text-align: justify;
+}
