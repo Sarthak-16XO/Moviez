@@ -5,7 +5,7 @@ import MovieCard from "../Components/MovieCard";
 
 const url = "https://api.tvmaze.com/search/shows?q=all"
 
-//mMovies API call method
+//Movies API call method
 const getMovies = async () => {
     try {
         const response = await axios.get(url)
