@@ -3,19 +3,9 @@ import React, { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import MovieCard from "../Components/MovieCard";
 
-// responcibility ->
-
-// 1. get data from API using useEffect
-// and store it in state name movies using
-// setMovies with the help of useState
-
-// 2. iterate over movies state using map function
-// and display the movies data using MovieCard Component 
-// by passing movie as props
-
 const url = "https://api.tvmaze.com/search/shows?q=all"
 
-//movies API call method
+//mMovies API call method
 const getMovies = async () => {
     try {
         const response = await axios.get(url)
