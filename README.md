@@ -4,6 +4,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Deployment Link
+
 [https://moviez-eight.vercel.app/](https://moviez-eight.vercel.app/)
 
 ## Available Scripts
