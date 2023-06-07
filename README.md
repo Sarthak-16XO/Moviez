@@ -4,8 +4,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Devlopment Link
-[https://fitnesss-gym-website.netlify.app/](https://moviez-eight.vercel.app/)
+[https://moviez-eight.vercel.app/](https://moviez-eight.vercel.app/)
 
 ## Available Scripts
 
