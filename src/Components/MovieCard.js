@@ -16,7 +16,9 @@ const MovieCard = (props) => {
   return (
     <>
       <Card style={{ width: "15rem" }}>
-        <Card.Img className="m-image" variant="top" src={movie.show.image.original} />
+        {movie.show && movie.show.image && movie.show.image.original && (
+          <Card.Img className="m-image" variant="top" src={movie.show.image.original} />
+        )}
         <Card.Body>
           <Card.Title>{movie.show.name}</Card.Title>
           <Card.Text>
